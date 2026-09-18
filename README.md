@@ -8,7 +8,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ## 🎯 Objective
 
-Develop a modern data warehouse using **PostgreSQL** to consolidate sales data, enabling analytical reporting and informed decision-making.
+Develop a modern data warehouse using **Microsoft SQL Server** to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 ### Specifications
 
