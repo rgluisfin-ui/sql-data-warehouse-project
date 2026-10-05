@@ -24,7 +24,7 @@ Develop a modern data warehouse using **Microsoft SQL Server** to consolidate sa
 
 This project follows the **Medallion Architecture** (Bronze, Silver, Gold layers):
 
-- **Bronze Layer** — Stores raw data as-is from the source systems. Data is ingested from CSV files into the PostgreSQL database with no transformations.
+- **Bronze Layer** — Stores raw data as-is from the source systems. Data is ingested from CSV files into the MS SQL Server database with no transformations.
 - **Silver Layer** — Includes data cleansing, standardisation, and normalisation processes to prepare data for analysis.
 - **Gold Layer** — Houses business-ready data modeled into a star schema, required for reporting and analytics.
 
@@ -54,7 +54,7 @@ This repository is an excellent resource for professionals and students looking 
 ## 🛠️ Important Links & Tools
 
 - **Datasets:** Access the project dataset(s) in the [`datasets`](datasets/) folder.
-- **PostgreSQL:** Database engine used to host the data warehouse.
+- **MS SQL Server:** Database engine used to host the data warehouse.
 - **DBeaver / pgAdmin:** GUI clients for managing and interacting with the database.
 - **Draw.io:** Used to design data architecture, models, flows, and diagrams.
 - **Git & GitHub:** Version control and collaboration.
@@ -66,7 +66,7 @@ This repository is an excellent resource for professionals and students looking 
 ### Building the Data Warehouse (Data Engineering)
 
 **Objective**
-Develop a modern data warehouse using PostgreSQL to consolidate sales data, enabling analytical reporting and informed decision-making.
+Develop a modern data warehouse using MS SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 **Specifications**
 - **Data Sources:** Import data from two source systems (ERP and CRM) provided as CSV files.
